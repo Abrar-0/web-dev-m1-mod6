@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
-.header h3{
+.new-year{
     font-family: 'Merriweather', serif;
+    position: relative;
+}
+
+.new-year-text{
+    position: absolute;
+    top: 50px;
+    margin: 0 auto;
+    background-image: url(resources/Banner\ Image.png);
+    width: 1320px;
 }
