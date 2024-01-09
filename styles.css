@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Merriweather:wght@900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 /* shared */
-main, header{
+main,
+header {
     width: 100%;
     margin: 0 auto;
 }
+
 /* header */
-.newyear{
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url("resources/Banner\ Image.png") ;
+.newyear {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("resources/Banner\ Image.png");
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: 50px;
@@ -21,7 +24,7 @@ main, header{
     display: block;
 }
 
-.title1{
+.title1 {
     text-align: center;
     padding-top: 177px;
     color: #FFF;
@@ -31,7 +34,7 @@ main, header{
     padding-bottom: 0px;
 }
 
-.title2{
+.title2 {
     color: #FFF;
     font-family: 'Merriweather';
     font-size: 72px;
@@ -42,28 +45,28 @@ main, header{
 }
 
 /* section 1  */
-.section1-container{
+.section1-container {
     text-align: center;
     margin-top: 120px;
 }
 
-.section1-img{ 
-   text-align: center;
-   margin-bottom: 120px;
+.section1-img {
+    text-align: center;
+    margin-bottom: 120px;
 }
 
-.section1-title{
+.section1-title {
     color: #F00;
-    font-family: 'Inter', sans-serif;
+    font-family: ''Inter'', sans-serif;
     font-size: 88px;
     font-style: normal;
     font-weight: 700;
     margin-bottom: 0px;
 }
 
-.section1-text1{
+.section1-text1 {
     color: #F00;
-    font-family: 'Inter', sans-serif;
+    font-family: ''Inter'', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -71,10 +74,10 @@ main, header{
     margin-bottom: 0px;
 }
 
-.section1-text2{
+.section1-text2 {
     color: #070211;
-    font-family: 'Inter', sans-serif;
-    font-size: 48px; 
+    font-family: ''Inter'', sans-serif;
+    font-size: 48px;
     font-style: normal;
     font-weight: 700;
     margin-top: 16px;
@@ -82,20 +85,20 @@ main, header{
 }
 
 /* section 2 */
-.section2{
+.section2 {
     display: flex;
     justify-content: space-between;
     margin-left: 140px;
     margin-right: 140px;
     align-items: center;
     margin-bottom: 120px;
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url("resources/Vectorrr.png");
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("resources/Vectorrr.png");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px;
 }
 
-.section2-title{
+.section2-title {
     color: #FFF;
     font-size: 64px;
     font-style: normal;
@@ -105,9 +108,9 @@ main, header{
     margin-left: 126px;
 }
 
-.section2-description{
+.section2-description {
     color: rgba(255, 255, 255, 0.80);
-    font-family: 'Inter', sans-serif;
+    font-family: ''Inter'', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -116,10 +119,10 @@ main, header{
     margin-left: 126px;
 }
 
-.section2-button{
+.section2-button {
     margin-top: 0px;
     color: #FFF;
-    font-family: 'Inter', sans-serif;
+    font-family: ''Inter'', sans-serif;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
@@ -128,14 +131,14 @@ main, header{
     border: 0;
 }
 
-.section2-image{
+.section2-image {
     margin-top: 68px;
     margin-bottom: 68px;
     margin-right: 138px;
 }
 
 /* section 3 starts */
-.section3{
+.section3 {
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     margin-left: 140px;
     margin-right: 140px;
@@ -144,58 +147,60 @@ main, header{
     margin-bottom: 120px;
 }
 
-.section3-red{
+.section3-red {
     color: #F00;
 }
 
-.section3-text{
+.section3-text {
     text-align: center;
-    font-family: 'Inter', sans-serif;
+    font-family: ''Inter'', sans-serif;
     font-size: 32px;
     font-weight: 600;
-    line-height: 56px; /* 175% */
+    line-height: 56px;
+    /* 175% */
     text-transform: capitalize;
     padding-top: 100px;
     margin-bottom: 48px;
 }
 
-.section3-button{
+.section3-button {
     padding: 16px 32px;
     border-radius: 8px;
     background: #F00;
     color: #FFF;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
     border: 0;
     margin-bottom: 110px;
 }
+
 /* section 4 */
-.section4{
+.section4 {
     margin-left: 140px;
     margin-right: 140px;
     border-radius: 15px;
     margin-bottom: 120px;
 }
 
-.section4-container{
+.section4-container {
     display: flex;
     align-items: center;
     gap: 67px;
 }
 
 
-.section4-left-text1{
+.section4-left-text1 {
     color: #F00;
     /* text-align: center; */
-    font-family: 'Inter';
+    font-family: ''Inter'';
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 16px;
 }
 
-.section4-left-text2{
+.section4-left-text2 {
     color: #070211;
     font-size: 48px;
     font-weight: 900;
@@ -204,30 +209,30 @@ main, header{
     margin-bottom: 22px;
 }
 
-.section4-left-text3{
+.section4-left-text3 {
     color: rgba(7, 2, 17, 0.60);
-    font-family: 'Inter';
+    font-family: ''Inter'';
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; 
+    line-height: 32px;
     margin-top: 0px;
 }
 
-.section4-center{
+.section4-center {
     margin-left: 0px;
 }
 
-.section4-center>img{
+.section4-center>img {
     border-radius: 463px;
     border: 15px solid #F00;
     padding: 39px;
 }
 
 
-.section4-right-text1{
+.section4-right-text1 {
     color: #F00;
-    font-family: 'Inter';
+    font-family: ''Inter'';
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -236,38 +241,39 @@ main, header{
     margin-left: 40px;
 }
 
-.section4-right-text2{
+.section4-right-text2 {
     color: rgba(7, 2, 17, 0.60);
-    font-family: 'Inter';
+    font-family: ''Inter'';
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; 
+    line-height: 32px;
     margin-top: 0px;
     margin-bottom: 39px;
     margin-left: 40px;
 }
 
-.section4-right>img{
+.section4-right>img {
     margin-left: 40px;
 }
 
-.rotate{
+.rotate {
     transition: transform 0.3s ease-in-out;
 }
-.rotate:hover{
+
+.rotate:hover {
     transform: rotate(360deg);
 }
 
 /* section 5 */
-.section5{
+.section5 {
     margin-left: 140px;
     margin-right: 140px;
     margin-bottom: 488px;
     text-align: center;
 }
 
-.section5-title1{
+.section5-title1 {
     color: #070211;
     font-family: 'Merriweather';
     font-size: 24px;
@@ -277,7 +283,7 @@ main, header{
     margin-bottom: 16px;
 }
 
-.section5-title2{
+.section5-title2 {
     color: #070211;
     font-size: 72px;
     font-style: normal;
@@ -287,50 +293,253 @@ main, header{
     margin-bottom: 28px;
 }
 
-.section5-description{
+.section5-description {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: 'Merriweather';
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 32px; 
+    line-height: 32px;
     margin-top: 0px;
 }
 
 /* section 6 */
-.section6{
+.section6 {
     margin-bottom: 120px;
     margin-left: 140px;
     margin-right: 140px;
 }
-.section6-container{
+
+.section6-container {
     position: relative;
 }
 
-.rectangle{
+.rectangle {
     position: absolute;
     top: 0px;
-    
+
 }
 
-.mohila{
+.mohila {
     position: absolute;
     top: -433px;
     right: 0px;
 }
 
-.purushkar{
+.purushkar {
     position: absolute;
     z-index: 1;
     left: 0px;
     top: -310px;
 }
 
-.discount{
+.discount {
     position: absolute;
     top: -350px;
     left: 650px;
     z-index: 1;
 }
 
+/* section 7 */
+.section7 {
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 120px;
+    margin-top: 0px;
+    margin-top: 800px;
+}
+
+.section7-title1 {
+    color: #F00;
+    font-family: ''Inter'';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.section7-title2 {
+    color: #070211;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 0px;
+    margin-bottom: 22px;
+}
+
+.section7-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 0px;
+    margin-bottom: 48px;
+}
+
+.section7-image-container img {
+    width: 31.5%;
+    display: inline-block;
+    padding: 10px;
+}
+
+/* section 8 */
+.section8 {
+    margin-left: 140px;
+    margin-right: 140px;
+    text-align: center;
+    margin-bottom: 120px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.section8-image {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    transform: scale(1.1);
+}
+
+.section8-title {
+    margin-top: 0px;
+    margin-bottom: 22px;
+    color: #070211;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.section8-description {
+    margin-top: 0px;
+    margin-bottom: 48px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.section8-input {
+    margin-top: 0px;
+    margin-bottom: 80px;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 50px 0px 0px 50px;
+    padding: 24px 267px 24px 30px;
+    border: 0;
+}
+
+.section8-button {
+    margin-top: 0px;
+    margin-bottom: 80px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    border: 0;
+    padding: 22.5px 56px 24px 56px;
+}
+
+.section8-devices {
+    align-items: center;
+}
+
+/* footer */
+.footer{
+    background-color: #070211;
+
+    ;
+}
+
+.topfooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+    padding-left: 140px;
+    padding-right: 140px;
+    margin-bottom: 50px;
+}
+
+.topleft{
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; 
+}
+
+.topright{
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; 
+    
+}
+
+.topright a{
+    text-decoration: none;
+    list-style: none;
+    color: #FFF;
+}
+
+.footericons{
+    padding-right: 16px;
+}
+
+#line{
+    background: rgba(255, 255, 255, 0.15);
+    margin-bottom: 48px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.centerfooter{
+    text-align: center;
+}
+
+.centerfooter img{
+    padding-right:  24px;
+}
+
+.bottomfooter{
+    display: flex;
+    padding-top: 0px;
+    padding-bottom: 120px;
+    padding-left: 140px;
+    padding-right: 140px;
+    justify-content: space-between;
+}
+
+.bottomfooter-left, .bottomfooter-right{
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.bottomfooter-right{
+   background-color: #070211;
+   border: 0;
+}
